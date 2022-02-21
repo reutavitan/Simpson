@@ -32,7 +32,7 @@ def SimpsonRule(func, n, a, b):
     str_even = ""
     str_odd = ""
     k2 = b
-    # print(bcolors.FAIL, "Error evaluation En = ", round(SimpsonError(my_f, b, a, h), 6), bcolors.ENDC)
+    # print("Error evaluation En = ", round(SimpsonError(my_f, b, a, h), 6))
     integral = func(a) + func(b)
     # Calculation of a polynomial lagranz for the sections
     for i in range(n):
